@@ -5,6 +5,9 @@
     <title>A Simple Web Form</title>
     <!-- In the real world, we'd have JavaScript form validation functins 
          here, like those from your Light Bulb assignment -->
+
+	<h1>Here is a webpage of sorts!</h1>
+
   </head>
   <body>
 	<p>First name: <input type="text" name="firstName" id="firstName"></p>
