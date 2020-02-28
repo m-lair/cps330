@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>A Simple Web Form</title>
+    <!-- In the real world, we'd have JavaScript form validation functins 
+         here, like those from your Light Bulb assignment -->
+  </head>
+  <body>
+	<p>First name: <input type="text" name="firstName" id="firstName"></p>
+	<p>Last name: <input type="text" name="lastName" id="lastName"></p>
+	<p>Class year:
+	<input type="radio" name="year" value="fr">Freshman
+	<input type="radio" name="year" value="so">Sophomore
+	<input type="radio" name="year" value="jr">Junior
+	<input type="radio" name="year" value="sr">Senior
+	</p>
+	<p>Classes this term:
+	<input type="checkbox" name="gened">Gen Ed
+	<input type="checkbox" name="major">Major-related
+	<input type="checkbox" name="minor">Minor-related
+	<input type="checkbox" name="allied">Allied
+	<input type="checkbox" name="elective">Electives
+	</p>
+	<p>Age:
+	<input type="text" name="age">
+	</p>
+  </body>
+</html>
+
+
+
